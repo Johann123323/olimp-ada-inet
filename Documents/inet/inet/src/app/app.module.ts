@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RecuperarContrasenaComponent } from './recuperar-contrasena/recuperar-contrasena.component';
+import { PatientAbmComponent } from './patient-abm/patient-abm.component';
 
 
 
@@ -12,7 +13,8 @@ import { RecuperarContrasenaComponent } from './recuperar-contrasena/recuperar-c
   declarations: [
     AppComponent,
     LoginComponent,
-    RecuperarContrasenaComponent
+    RecuperarContrasenaComponent,
+    PatientAbmComponent
   ],
   imports: [
     BrowserModule,
