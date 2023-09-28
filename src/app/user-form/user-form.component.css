@@ -1,0 +1,24 @@
+.container-fluid{
+    background-color: rgb(255, 238, 217);
+}
+
+h3{
+    font-size: 1em;
+    margin: auto;
+}
+
+button{
+    margin-top:1em;
+    width: 4.5em;
+    transition: 0.4s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+h3, input{
+    margin:0.2em;
+    padding: auto;
+}
+

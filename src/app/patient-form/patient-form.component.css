@@ -1,0 +1,31 @@
+.container-fluid{
+    background-color: rgb(255, 238, 217);
+}
+
+h3{
+    font-size: 1em;
+    margin: auto;
+}
+
+#buttonCrear{
+    margin-top:1em;
+    width: 4.5em;
+    transition: 0.4s;
+}
+
+#buttonDiagnostico{
+    background-color: rgb(157, 157, 157);
+    margin-top:1em;
+    width: 9em;
+    transition: 0.4s;
+    font-size: 0.5em;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+h3, input{
+    margin:0.2em;
+    padding: auto;
+}
