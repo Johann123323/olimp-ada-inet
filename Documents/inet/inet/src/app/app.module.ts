@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RecuperarContrasenaComponent } from './recuperar-contrasena/recuperar-contrasena.component';
 import { PatientAbmComponent } from './patient-abm/patient-abm.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 
@@ -14,7 +15,8 @@ import { PatientAbmComponent } from './patient-abm/patient-abm.component';
     AppComponent,
     LoginComponent,
     RecuperarContrasenaComponent,
-    PatientAbmComponent
+    PatientAbmComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
