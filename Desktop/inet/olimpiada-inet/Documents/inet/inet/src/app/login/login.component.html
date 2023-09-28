@@ -1,0 +1,28 @@
+<!--acá va el navbar-->
+    <header><h1>Login</h1></header>
+<form [formGroup]="loginForm" (ngSubmit)="iniciarSesion()">
+    <div id="cuerpo">
+        <div>
+            <h2>Correo electrónico</h2>
+            <input type="email" formControlName="email">
+        </div>
+        <div>    
+                <h2>Contraseña</h2>
+                <input type="password" formControlName="contrasena">    
+        </div>
+        <div>    
+            <input type="submit" class="boton" >     
+        </div>
+        <div>
+            <h2><a href="">Crear Cuenta</a></h2>
+        </div>
+        <div>
+            <h2> <a routerLink="/recuperar-contrasena">Olvidaste tu contraseña?</a></h2>
+        </div>
+        
+    </div>
+</form>
+    <!--acá va el footer-->
+
+
+
