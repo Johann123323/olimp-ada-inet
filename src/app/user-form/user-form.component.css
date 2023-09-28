@@ -1,24 +1,71 @@
-.container-fluid{
-    background-color: rgb(255, 238, 217);
+.container-fluid {
+    /* background-image: url("../../assets/hospital.jpg"); */
 }
 
-h3{
+h3 {
     font-size: 1em;
     margin: auto;
 }
 
-button{
-    margin-top:1em;
+button {
+    /* margin-top: 1em; */
     width: 4.5em;
     transition: 0.4s;
+    margin: 0.5em;
 }
 
-button:hover{
-    transform:scale(1.05);
+button:hover {
+    transform: scale(1.05);
 }
 
-h3, input{
-    margin:0.2em;
+/* #colIzq{
+    background-color:white;
+} */
+
+h3,
+input {
+    margin: 0.2em;
     padding: auto;
 }
 
+.input-group {
+    position: relative;
+    margin-top: 1em;
+    
+}
+
+.input-group__input {
+    font: inherit;
+    color: #000000;
+    padding: 0.4em;
+    border: none;
+    border-radius: 5px;
+    outline: 1.3px solid #2e2e2e;
+    background-color: transparent;
+    transition: outline-color 500ms;
+}
+
+.input-group__input:is(:focus, :valid) {
+    outline-color: #3c50eb;
+}
+
+.input-group__label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 10px 10px;
+    color: #959595;
+    transition: translate 500ms, scale 500ms;
+    transition: 500ms;
+}
+
+.input-group__input:focus+.input-group__label,
+.input-group__input:valid+.input-group__label {
+    padding-inline: 5px;
+    translate: 10px -14px;
+    scale: 0.8;
+    background-color: #ffffff;
+    transition: 500ms;
+    color: #000000;
+
+}
