@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { RecuperarContrasenaComponent } from './recuperar-contrasena/recuperar-contrasena.component';
 import { PatientAbmComponent } from './patient-abm/patient-abm.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { CarruselComponent } from './carrusel/carrusel.component';
 
 
 
@@ -16,7 +17,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     LoginComponent,
     RecuperarContrasenaComponent,
     PatientAbmComponent,
-    NavbarComponent
+    NavbarComponent,
+    CarruselComponent
   ],
   imports: [
     BrowserModule,
