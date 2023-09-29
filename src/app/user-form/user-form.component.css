@@ -1,5 +1,5 @@
 .container-fluid {
-    /* background-image: url("../../assets/hospital.jpg"); */
+    background-image: url("../../assets/hospital.jpg");
 }
 
 h3 {
@@ -10,17 +10,12 @@ h3 {
 button {
     /* margin-top: 1em; */
     width: 4.5em;
-    transition: 0.4s;
     margin: 0.5em;
 }
 
-button:hover {
-    transform: scale(1.05);
-}
-
-/* #colIzq{
+#colIzq{
     background-color:white;
-} */
+}
 
 h3,
 input {
