@@ -9,6 +9,8 @@ import { PatientAbmComponent } from './patient-abm/patient-abm.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { DashboardAdmiComponent } from './dashboard-admi/dashboard-admi.component';
+import { NurseAbmComponent } from './nurse-abm/nurse-abm.component';
+import { AreaAbmComponent } from './area-abm/area-abm.component';
 
 
 
@@ -18,7 +20,9 @@ import { DashboardAdmiComponent } from './dashboard-admi/dashboard-admi.componen
     LoginComponent,
     RecuperarContrasenaComponent,
     PatientAbmComponent,
-    DashboardAdmiComponent
+    DashboardAdmiComponent,
+    NurseAbmComponent,
+    AreaAbmComponent
   ],
   imports: [
     BrowserModule,

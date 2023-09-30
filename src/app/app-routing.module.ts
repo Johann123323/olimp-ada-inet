@@ -4,12 +4,17 @@ import {LoginComponent} from './login/login.component';
 import { RecuperarContrasenaComponent } from './recuperar-contrasena/recuperar-contrasena.component';
 import { PatientAbmComponent } from './patient-abm/patient-abm.component';
 import { DashboardAdmiComponent } from './dashboard-admi/dashboard-admi.component';
+import { NurseAbmComponent } from './nurse-abm/nurse-abm.component';
+import { AreaAbmComponent } from './area-abm/area-abm.component';
 const routes: Routes = [
     {path: "", redirectTo: "login", pathMatch: "full"},
     {path:"login", component:LoginComponent},
     {path:"recuperar-contrasena", component: RecuperarContrasenaComponent},
     {path:"patient-abm", component: PatientAbmComponent},
-    {path:"dashboard-admi", component: DashboardAdmiComponent}
+    {path:"nurse-abm", component: NurseAbmComponent},
+    {path:"area-abm", component: AreaAbmComponent},
+    {path:"dashboard-admi", component: DashboardAdmiComponent},
+    
 ];
 
 @NgModule({
