@@ -19,6 +19,11 @@ import { NurseAbmComponent } from './nurse-abm/nurse-abm.component';
 import { DashboardAdmiComponent } from './dashboard-admi/dashboard-admi.component';
 import { NurseFormComponent } from './nurse-form/nurse-form.component';
 import { AreaFormComponent } from './area-form/area-form.component';
+import { DashboardUserComponent } from './dashboard-user/dashboard-user.component';
+import { NavbarUserComponent } from './shared/navbar-user/navbar-user.component';
+import { AreaAbmUserComponent } from './area-abm-user/area-abm-user.component';
+import { PatientAbmUserComponent } from './patient-abm-user/patient-abm-user.component';
+import { NurseAbmUserComponent } from './nurse-abm-user/nurse-abm-user.component';
 
 
 
@@ -41,6 +46,11 @@ import { AreaFormComponent } from './area-form/area-form.component';
     DashboardAdmiComponent,
     NurseFormComponent,
     AreaFormComponent,
+    DashboardUserComponent,
+    NavbarUserComponent,
+    AreaAbmUserComponent,
+    PatientAbmUserComponent,
+    NurseAbmUserComponent,
   ],
   imports: [
     BrowserModule,

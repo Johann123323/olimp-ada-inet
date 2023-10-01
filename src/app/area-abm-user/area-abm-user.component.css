@@ -1,0 +1,35 @@
+#new {
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+
+#bm {
+    display: inline-block;
+    margin: 0.5em;
+}
+
+#editar {
+    width: 1em;
+    height: 1em;
+    display: flex;
+}
+
+#eliminar {
+    width: 1em;
+    height: 1em;
+    display: flex;
+}
+
+table {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0);
+    margin-bottom: 5em;
+}
+
+#all {
+    background-image: url("/assets/operacion.jpg");
+}
+
+h2{
+    margin-top: 1em;
+    color: #064379;
+}
