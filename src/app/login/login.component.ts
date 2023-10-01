@@ -20,7 +20,7 @@ export class LoginComponent {
   iniciarSesion() {
     if (this.loginForm.valid) {
       if (this.loginForm.controls["email"].value == "jk@gmail.com" && this.loginForm.controls["password"].value == "123AF@") {
-        this.router.navigateByUrl("/patient-ABM")
+        this.router.navigateByUrl("/dashboard-admi")
       } else {
 
       }
@@ -28,10 +28,6 @@ export class LoginComponent {
     else {
       this.loginForm.markAllAsTouched();
     }
-  }
-
-  marcar(){
-    this.loginForm.markAllAsTouched();
   }
 
   get email() {

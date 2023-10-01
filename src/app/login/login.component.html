@@ -1,6 +1,6 @@
 <app-navbar-is></app-navbar-is>
 <!-- Section: Design Block -->
-<section class="background-radial-gradient overflow-hidden">
+<section class="background-radial-gradient overflow-hidden" id="all">
     <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
         <div class="row gx-lg-5 align-items-center mb-5">
             <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
@@ -45,10 +45,10 @@
                                     <label class="form-label" for="form3Example4">Contraseña</label>
                                     <div *ngIf=" password.invalid && (password.dirty || password.touched)"
                                         class="alert text-danger">
-                                        <div *ngIf="email.errors?.['required']">
+                                        <div *ngIf="password.errors?.['required']">
                                             La contraseña es requerida.
                                         </div>
-                                        <div *ngIf="email.errors?.['password']">
+                                        <div *ngIf="password.errors?.['password']">
                                             La contraseña debe tener el formato correspondiente.
                                         </div>
                                     </div>

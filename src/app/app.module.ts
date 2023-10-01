@@ -13,6 +13,13 @@ import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './shared/navbarIS/navbar.component';
 import { NavbarRComponent } from './shared/navbarR/navbar-r.component';
 import { SingUpComponent } from './sign-up/sing-up.component';
+import { NavbarAdminComponent } from './shared/navbar-admin/navbar-admin.component';
+import { AreaAbmComponent } from './area-abm/area-abm.component';
+import { NurseAbmComponent } from './nurse-abm/nurse-abm.component';
+import { DashboardAdmiComponent } from './dashboard-admi/dashboard-admi.component';
+import { NurseFormComponent } from './nurse-form/nurse-form.component';
+import { AreaFormComponent } from './area-form/area-form.component';
+
 
 
 
@@ -28,6 +35,12 @@ import { SingUpComponent } from './sign-up/sing-up.component';
     NavbarComponent,
     NavbarRComponent,
     SingUpComponent,
+    NavbarAdminComponent,
+    AreaAbmComponent,
+    NurseAbmComponent,
+    DashboardAdmiComponent,
+    NurseFormComponent,
+    AreaFormComponent,
   ],
   imports: [
     BrowserModule,
